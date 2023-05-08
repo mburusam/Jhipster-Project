@@ -1,0 +1,40 @@
+{
+  "changelogDate": "20230508100418",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "firstName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "lastName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "email",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "phoneNumber",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "hireDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "salary",
+      "fieldType": "BigDecimal"
+    },
+    {
+      "fieldName": "commisionPct",
+      "fieldType": "BigDecimal"
+    }
+  ],
+  "jpaMetamodelFiltering": false,
+  "name": "Employee",
+  "pagination": "infinite-scroll",
+  "readOnly": true,
+  "relationships": [],
+  "service": "serviceImpl"
+}
